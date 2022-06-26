@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0% 5%;
+}
+
+/* NAV-BAR */
+#nav-bar {
+    background-color: #C1C1C1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+}
+
+.nav-inputs {
+    height: 2rem;
+    border: 3px solid black;
+}
+
+#search-bar {
+    width: 50%;
+}
+
+#login-btn {
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 3px 3px 1px black;
+    width: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+/* BODY */
+
+#body {
+    display: flex;
+    gap: 2em;
+    padding-top: 2%;
+}
+
+.body-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.body-right {   /* ALSO IS 'DOJONARY IS DEFINED BY YOU' */
+    flex: 1;
+}
+
+/* DEFINED */
+.defined {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    border: 3px solid black;
+    padding: 3%;
+}
+
+.defined-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 0;
+}
+
+.defined-right {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.like-btn {
+    height: 3rem;
+    width: 8rem;
+    font-size: large;
+    font-weight: 600;
+    background-color: #FFD966;
+    box-shadow: 3px 3px 1px black;
+}
+
+
+/* ADD DEFINITION  */
+.definedByYou {
+    border: 3px solid black;
+    font-size: 150%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 2em;
+}
+
+#add-def-btn {
+    background-color: #93C47D;
+    box-shadow: 3px 3px 1px black;
+    height: 3rem;
+    width: 16rem;
+}
+
+
+
+
+
