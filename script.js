@@ -1,5 +1,11 @@
 function login( input ) {
-    input.innerText = 'Logout';
+    console.log( input.innerText );
+    if( input.innerText === 'Login' ) {
+        input.innerText = 'Logout';
+    }
+    else if( input.innerText === 'Logout' ) {
+        input.innerText = 'Login';
+    }
 }
 
 function hide( input ) {
